@@ -13,9 +13,11 @@ First of all, let’s start by creating an external network that will allow all 
 
         $ docker network create traefik
 
-        Create a Traefik folder on your server :
+Create a Traefik folder on your server :
 
-$ mkdir traefik
-$ cd traefik
+       I/ mkdir traefik
+       I/ cd traefik
 
 In this folder, we will only add a docker-compose-.yml file. This file will contain all the configuration options for Traefik. Personally I prefer this approach, among the many Traefik offers, because it allows you to have everything in one place.
+
+
